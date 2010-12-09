@@ -11,7 +11,7 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'http://github.com/ezmobius/nanite'
 
   s.bindir       = 'bin'
-  s.executables  = [ 'nanite-agent', 'nanite-mapper', 'nanite-admin']
+  s.executables  = [ 'nanite-agent', 'nanite-mapper']
 
   s.add_dependency('amqp', '>= 0.6.0')
 
